@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "is-prime-fibonacci"
+  "defaultProject": "is-prime-fibonacci",
+  "cli": {
+    "analytics": false
+  }
 }

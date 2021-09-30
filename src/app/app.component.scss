@@ -1,0 +1,33 @@
+.custom-container {
+  display: flex;
+}
+
+.custom-column-200 {
+  flex: 1;
+  width: 200px;
+  min-height: 500px;
+  border: 1px solid #e6e6e6;
+}
+
+.custom-column {
+  flex: 1;
+  min-width: 100px;
+  min-height: 500px;
+  border: 1px solid #e6e6e6;
+}
+
+.custom-column-300 {
+  flex: 1;
+  width: 300px;
+  min-height: 500px;
+  border: 1px solid #e6e6e6;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .custom-container {
+    width: 600px;
+    height: 600px;
+    overflow: scroll;
+  }
+}
